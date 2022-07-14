@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: black;
+    width: 100%;
+    height: 70px;
+}
+header h2{
+    color: aliceblue;
+    margin-left: 40px;
+    padding-top: 19px;
+    width: 80px;
+    height: 5px;
+}
+header span{
+    color:orangered;
+}
+header button{
+    width: 100px;
+    text-align: center;
+    padding: 4px;
+    margin-left: 6px;
+    border: none;
+    background:black;
+    outline:none ;
+    color: rgb(246, 246, 248);
+    font-size: 15px;
+    font-family: 'Tajawal', sans-serif;
+    transition: 1s;
+    font-weight: bold;
+}
+header button:hover{
+    background: orangered;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+header #qq{
+    float: right;
+    background-color: orangered;
+    margin-top: -10px;
+    margin-right: 35px;
+    border-radius: 11px;
+    padding: 5px;
+   
+}
+button:hover{
+    background: orangered;
+    transform: scale(1);
+    cursor: pointer;
+}
+main{
+    width: 50%;
+    height: 590px;
+    background-color: rgb(24, 2, 44);
+}
+main div  {
+    position: absolute;
+    width: 40%;
+    height: 290px;
+
+    margin-left: 100px;
+    margin-top: 100px;
+}
+main div h1{
+    font-family: 'Tajawal', sans-serif;
+     color: white;
+     font-size: 40px;
+}
+.tt{
+    color: orangered;
+}
+main div #rr{
+    color: white;
+    font-family: 'Tajawal', sans-serif;
+    margin-left: 5px;
+    text-align:justify;
+    font-weight: bold;
+    float: left;
+
+
+}
+main button{
+    background-color: orangered;
+    border-radius: 11px;
+    width: 100px;
+    padding: 6px;
+    color: white;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+    font-weight: bold;
+    margin-left: 3px;
+}
+main button:hover{
+    cursor: pointer;
+}
+#yy{
+   
+    width: 600px;
+    height: 40px;
+    
+    font-weight: bolder;
+    margin-top: -210px;
+    margin-left: 93px;
+    float: left;
+    
+}
+#yy div{
+    width: 100px;
+    float: left;
+    margin-left: 20px;
+    border: 1px solid rgb(70, 64, 64);
+    padding: 2px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Tajawal', sans-serif;
+    text-align: center;
+}
+.uu{
+    color: orangered;
+}
+.ii{
+    color:orangered;
+}
+.oo{
+    color: orangered;
+}
+aside{
+    width: 50%;
+    height: 590px;
+    background-color: rgb(24, 2, 44);
+    float: right;
+}
+aside div{
+    position:absolute;
+    display: block;
+    width: 25%;
+    height: 320px;
+    background-color: rgb(73, 17, 55);
+    margin-top: 70px;
+    margin-left: 165px;
+    transform:rotateZ(9deg);
+    border-radius: 5%;
+
+}
+aside img{
+  
+   
+    height: 350px;
+    margin-top: 20px;
+    margin-left:-20px ;
+    transform:rotateX(11deg);
+    box-shadow:0px 0px 20px rgb(158, 96, 73);
+    border-radius: 5%;
+    
+}
+
+
